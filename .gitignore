@@ -1,0 +1,7 @@
+/node_modules/
+/app/scss/
+/**/*.psd
+/PSD/
+/**/Thumbs.db
+/package.json
+/package-lock.json
