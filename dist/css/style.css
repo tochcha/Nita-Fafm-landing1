@@ -2126,8 +2126,8 @@ ul.nav-subtab-list li.bird_3.active em:after { background: url(../img/bird-3-gre
 
 .lps_scheme .item.active .item__inner { background-color: #6FCF97; }
 
-/* #6C6C6C
-#00924F */
+.anchor { position: relative; top: -140px; }
+
 @media only screen and (max-width: 767px) { .animated { /*CSS transitions*/ -webkit-transition-property: none !important; transition-property: none !important; /*CSS transforms*/ -ms-transform: none !important; -webkit-transform: none !important; transform: none !important; /*CSS animations*/ -webkit-animation: none !important; animation: none !important; }
   .animated { opacity: 1 !important; } }
 
@@ -2159,7 +2159,7 @@ ul.nav-subtab-list li.bird_3.active em:after { background: url(../img/bird-3-gre
   .header nav ul { margin: 0; padding: 0; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
   .header nav li { list-style: none; padding-bottom: 0 4px; }
   .header nav li a { font: 600 12px/20px 'Montserrat', sans-serif; color: #000; text-transform: uppercase; text-decoration: none; white-space: nowrap; }
-  .header nav li a:hover { text-decoration: none; color: #00924F; }
+  .header nav li a.mPS2id-clicked, .header nav li a:hover { text-decoration: none; color: #00924F; }
   .header .hamburger { display: none; } }
 
 @media only screen and (min-width: 1500px) { .header nav { width: 55%; }
@@ -2436,5 +2436,7 @@ ul.nav-subtab-list li.bird_3.active em:after { background: url(../img/bird-3-gre
   .lps_scheme .item.active .item__inner { background-color: #6FCF97; } }
 
 @media only screen and (max-width: 374px) { .lps_scheme { width: 330px; } }
+
+@media only screen and (max-width: 1249px) { #catalog { position: relative; top: -90px; } }
 
 /*# sourceMappingURL=style.css.map */
